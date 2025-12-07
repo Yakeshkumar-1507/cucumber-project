@@ -19,7 +19,11 @@ public class Hooks {
     @Before
     public void setup() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless"); // run without UI
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");driver = new ChromeDriver(options);
+        driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
         System.out.println("Browser launched before Scenarios");
