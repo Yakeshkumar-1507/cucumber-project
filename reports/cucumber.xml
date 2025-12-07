@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.171" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Validate Datatable Scenario" name="Verify datatable" time="0.021">
+<system-out><![CDATA[
+Given user launch the application...........................................passed
+When user enter "<username>" and "<password>"...............................passed
+Then verify the username as expected........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Datatable Scenario" name="verify products" time="0.003">
+<system-out><![CDATA[
+Given user launch the application...........................................passed
+When user enter product list................................................passed
+Then products are added to List.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
