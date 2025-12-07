@@ -5,8 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/FeatureFile/APITesting.feature",
-        glue = "steps", tags = "@getMapping"
+@CucumberOptions(features = "src/test/resources/FeatureFile/AdactinLogin.feature.feature",
+        glue = "steps", tags = "@smoke"
 //        plugin = {
 //                "pretty",
 //                "html:reports/cucumber-html-report.html",
