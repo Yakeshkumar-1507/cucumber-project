@@ -1,5 +1,6 @@
 Feature: Login Functionality
 
+  @smoke
   Scenario Outline: Valid login credentials
     Given user is on login page
     When user enter valid "<username>" and "<password>"
