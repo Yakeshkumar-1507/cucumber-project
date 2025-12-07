@@ -10,4 +10,3 @@ Feature: Login Functionality
     Examples:
       | username   | password    |
       | YakeshSiva | Yakesh@1507 |
-      | Admin      | admin@123   |
