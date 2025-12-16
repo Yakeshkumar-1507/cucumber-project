@@ -1,9 +1,9 @@
 name: Cucumber Tests Scheduled Email
 
-#  on:
-# #   schedule:
-# #     - cron: '*/1 * * * *'  # Every 1 minute
-#   workflow_dispatch:       # Allow manual runs
+ on:
+#   schedule:
+#     - cron: '*/1 * * * *'  # Every 1 minute
+  workflow_dispatch:       # Allow manual runs
 
 jobs:
   test-and-email:
